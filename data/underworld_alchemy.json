@@ -1,0 +1,124 @@
+{
+  "game_title": "Underworld Alchemy",
+  "tiers": {
+    "1": {
+      "elements": [],
+      "combos": []
+    },
+    "2": {
+      "elements": [
+        {
+          "id": "fencing_network",
+          "name": "Fencing Network",
+          "tier": 2,
+          "category": "Op",
+          "rarity": "uncommon",
+          "tags": [],
+          "art": null,
+          "desc": "Pipeline for moving stolen goods."
+        },
+        {
+          "id": "street_boss",
+          "name": "Street Boss",
+          "tier": 2,
+          "category": "People",
+          "rarity": "uncommon",
+          "tags": [],
+          "art": null,
+          "desc": "Local rackets kingpin."
+        },
+        {
+          "id": "numbers_game",
+          "name": "Numbers Game",
+          "tier": 2,
+          "category": "Op",
+          "rarity": "uncommon",
+          "tags": [],
+          "art": null,
+          "desc": "Illegal lottery running through the hood."
+        }
+      ],
+      "combos": [
+        {
+          "a": "fencing_network",
+          "b": "street_boss",
+          "result": "numbers_game",
+          "tier": 2,
+          "economy": {
+            "cash": 260,
+            "heat": 2,
+            "multiplierTag": null
+          },
+          "requires": [
+            "fencing_network",
+            "street_boss"
+          ],
+          "locks": {
+            "territory": null
+          },
+          "hints": [
+            "Run the rackets",
+            "Lottery for the streets"
+          ],
+          "fx": {
+            "sfx": null,
+            "vfx": null
+          }
+        }
+      ]
+    },
+    "3": {
+      "elements": [],
+      "combos": []
+    },
+    "4": {
+      "elements": [],
+      "combos": []
+    },
+    "5": {
+      "elements": [],
+      "combos": []
+    }
+  },
+  "progression_rules": {
+    "tier_unlocks": {},
+    "economy": {
+      "heat": {
+        "max": 10,
+        "decayPerMinute": 0.5,
+        "crackdownAt": 8
+      },
+      "tiers": {
+        "1": {
+          "cashBase": 50,
+          "heatBase": 1
+        },
+        "2": {
+          "cashBase": 150,
+          "heatBase": 2
+        },
+        "3": {
+          "cashBase": 400,
+          "heatBase": 3
+        },
+        "4": {
+          "cashBase": 1200,
+          "heatBase": 4
+        },
+        "5": {
+          "cashBase": 3000,
+          "heatBase": 5
+        }
+      },
+      "rarityMultipliers": {
+        "common": 1.0,
+        "rare": 1.5,
+        "epic": 2.25,
+        "legendary": 3.0
+      }
+    }
+  },
+  "tasks": [],
+  "ui_ux": {},
+  "marketing_assets": {}
+}
